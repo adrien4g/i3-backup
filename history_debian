@@ -1,0 +1,601 @@
+#root
+    1  df -h
+    2  cd /pro
+    3  cd /projetos
+    4  ls
+    5  cd auto-backup/
+    6  vim.tiny startonedrive.sh 
+    7  vim.tiny restartonedrive.sh 
+    8  vim.tiny backup_manager/tar.py 
+    9  python3 -m venv .env && source .env/bin/activate
+   10  pip3 install -r requirements.txt
+   11  cd backup_manager/
+   12  pip3 install -r requirements.txt
+   13  deactivate && cd ..
+   14  docker volume create onedrive_conf
+   15  docker inspect onedrive_conf
+   16  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+   17  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+   18  clear
+   19  ./startonedrive.sh 
+   20  lq /home
+   21  ls /home
+   22  exit
+   23  pip3 install docker
+   24  exit
+   25  source 
+   26  exit
+   27  ls
+   28  pwd
+   29  apt install sudo tmux ccze 
+   30  apt update
+   31  vim.tiny /etc/apt/sources.list
+   32  apt install sudo tmux ccze 
+   33  cat /etc/passwd
+   34  adduser ntm sudo 
+   35  apt install gu
+   36  apt install git 
+   37  apt install python3-pip
+   38  tail -f /var/log/syslog
+   39  tail -f /var/log/syslog | ccze -CA
+   40  }ls
+   41  iptables -L
+   42  iptables -A INPUT -p tcp --dport 1080 -j ACCEPT
+   43  iptables -A INPUT -p tcp --dport 1443 -j ACCEPT
+   44  iptables -L
+   45  iptables -L
+   46  iptables -L : ccze -CA
+   47  iptables -L | ccze -CA
+   48  tail -f /var/log/syslog | ccze -CA
+   49  PWD
+   50  pwd
+   51  ls
+   52  git --version
+   53  clear
+   54  ls
+   55  pwd
+   56  sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+   57   curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+   58  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+   59  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   60  sudo apt-get update && sudo apt-get install docker-ce docker-ce-cli containerd.io
+   61  sudo groupadd docker
+   62  ls /home
+   63  adduser ntm docker
+   64   sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   65  sudo chmod +x /usr/local/bin/docker-compose
+   66  mkdir /projetos
+   67  cd /projetos
+   68  pwd
+   69  git clone https://github.com/adrien4g/auto-backup
+   70  ls
+   71  cd auto-backup/
+   72  ls
+   73  vim
+   74  ls
+   75  df -h
+   76  ls
+   77  cd ..
+   78  ls
+   79  git clone https://gitlab.com/i553/zabbix_docker
+   80  cd zabbix_docker/
+   81  ls
+   82  docker-compose up -d
+   83  docker ps
+   84  ip a
+   85  docker-compose down
+   86  vim.tiny docker-compose.yaml 
+   87  docker-compose up -d
+   88  vim.tiny docker-compose.yaml 
+   89  docker ps
+   90  ip a
+   91  clear
+   92  docker-compose down
+   93  clear
+   94  vim.tiny docker-compose.yaml 
+   95  docker-compose up -d
+   96  docker-compose down
+   97  vim.tiny docker-compose.yaml 
+   98  docker-compose up 
+   99  vim.tiny docker-compose.yaml 
+  100  docker-compose up
+  101  vim.tiny docker-compose.yaml 
+  102  history
+  103  vim.tiny docker-compose.yaml 
+  104  docker-compose up
+  105  docker-compose up -d
+  106  docker ps
+  107  docker exec bash zabbix_docker_zabbix-web-nginx-mysql_1 -it
+  108  docker exec -it bash zabbix_docker_zabbix-web-nginx-mysql_1 
+  109  docker -it exec bash zabbix_docker_zabbix-web-nginx-mysql_1 
+  110  pwd
+  111  docker -ti exec bash zabbix_docker_zabbix-web-nginx-mysql_1 
+  112  docker -it exec zabbix_docker_zabbix-web-nginx-mysql_1 bash
+  113  docker -it exec zabbix_docker_zabbix-web-nginx-mysql_1 /bin/bash
+  114  clear
+  115  cd ..
+  116  ls
+  117  cd auto-backup/
+  118  ls
+  119  vim.tiny config_files/config 
+  120  vim.tiny startonedrive.sh 
+  121  vim.tiny backup_manager/tar.py 
+  122  python3 -m venv .env && source .env/bin/activate
+  123  apt install python3-venv
+  124  vim.tiny backup_manager/tar.py 
+  125  vim.tiny  /var/lib/docker/volumes/onedrive_conf/_data/config/sync_list
+  126  exit
+  127  history
+
+#ntm
+    1  clear
+    2  cd auto-backup/
+    3  ls
+    4  sudo ./makebackup.sh 
+    5  nvim makebackup.sh 
+    6  vim.tiny makebackup.sh 
+    7  cat makebackup.sh 
+    8  cd ~/auto-backup/backup_manager
+    9  sudo cd ~/auto-backup/backup_manager
+   10  sudo
+   11  nvim main.py 
+   12  vim.tiny main.py 
+   13  cd ..
+   14  vim.tiny makebackup.sh 
+   15  ls
+   16  sudo ./makebackup.sh 
+   17  cd backup_manager/
+   18  ls
+   19  ls -a
+   20  source .env/bin/activate
+   21  pip3 install docker
+   22  cd ..
+   23  deactivate
+   24  sudo su
+   25  pip3 install docker
+   26  sudo ./makebackup.sh 
+   27  source 
+   28  sudo su
+   29  vim.tiny makebackup.sh 
+   30  cd /home/ntm/auto-backup/backup_manager
+   31  ls
+   32  cd ..
+   33  vim.tiny makebackup.sh 
+   34  sudo ./makebackup.sh 
+   35  vim.tiny makebackup.sh 
+   36  vim.tiny backup_manager/tar.py 
+   37  sudo ./makebackup.sh 
+   38  vim.tiny backup_manager/utils.py 
+   39  sudo ./makebackup.sh 
+   40  vim.tiny backup_manager/utils.py 
+   41  sudo ./makebackup.sh 
+   42  git pull
+   43  clear
+   44  vim.tiny backup_manager/tar.py 
+   45  sudo ./makebackup.sh 
+   46  vim.tiny backup_manager/tar.py 
+   47  vim.tiny backup_manager/utils.py 
+   48  sudo ./makebackup.sh 
+   49  cd 
+   50  rm -rf auto-backup/
+   51  history
+   52  git clonehttps://github.com/adrien4g/auto-backup 
+   53  git clone https://github.com/adrien4g/auto-backup
+   54  cd auto-backup/
+   55  sudo ./makebackup.sh 
+   56  vim.tiny makebackup.sh 
+   57  sudo ./makebackup.sh 
+   58  git pull
+   59  sudo ./makebackup.sh 
+   60  git pull
+   61  clear
+   62  sudo ./makebackup.sh 
+   63  cd /projects
+   64  cd /projetos
+   65  ls
+   66  cd zabbix_docker/
+   67  clear
+   68  ls /projects/volumes/zabbix_env/var/lib/zabbix/enc
+   69  ls /projects/volumes/zabbix_env/var/lib/zabbix/
+   70  sudo ls /projects/volumes/zabbix_env/var/lib/zabbix/
+   71  docker ps
+   72  docker -it exec 9c44 bash
+   73  pwd
+   74  cd /projetos
+   75  ls
+   76  cd auto-backup/
+   77  sudo ./startonedrive.sh 
+   78  sudo docker rm onedrive
+   79  sudo docker rm onedrive --force
+   80  sudo ./startonedrive.sh 
+   81  chown -R ntm /projetos/
+   82  sudo chown -R ntm /projetos/
+   83  ./startonedrive.sh 
+   84  sudo docker rm onedrive --force
+   85  ./startonedrive.sh 
+   86  ls -lah /projetos
+   87  ls -lah /
+   88  clear
+   89  ls
+   90  ls -lah
+   91  ls -lah /
+   92  chmod -R 760 /projetos 
+   93  ./startonedrive.sh 
+   94  ls -lah /
+   95  docker rm onedrive --force
+   96  chmod -R 770 /projetos 
+   97  ./startonedrive.sh 
+   98  cd
+   99  cp /projetos/autobackup .
+  100  cp /projetos/auto-backup .
+  101  ls
+  102  mkdir auto-backup
+  103  cp /projetos/auto-backup/* auto-backup/
+  104  pwd
+  105  ls
+  106  cp /projetos/auto-backup/* ~/auto-backup/
+  107  cp -r /projetos/auto-backup/* ~/auto-backup/
+  108  ls
+  109  cd auto-backup/
+  110  ls
+  111  ./startonedrive.sh 
+  112  docker rm onedrive --force
+  113  ./startonedrive.sh 
+  114  clear
+  115  cd
+  116  rm -rf auto-backup/
+  117  clear
+  118  git clone https://github.com/adrien4g/auto-backup
+  119  cd auto-backup/
+  120  clear
+  121  cd backup_manager
+  122  python3 -m venv .env && source .env/bin/activate
+  123  pip3 install -r requirements.txt
+  124  deactivate && cd ..
+  125  docker volume create onedrive_conf
+  126  docker inspect onedrive_conf
+  127  vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  128  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  129  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+  130  ./startonedrive.sh 
+  131  docker rm onedrive --force
+  132  clear
+  133  nvim startonedrive.sh 
+  134  vim.tiny startonedrive.sh 
+  135  vim.tiny restartonedrive.sh 
+  136  ./startonedrive.sh 
+  137  docker ps
+  138  docker inspect 6b4e
+  139  docker ps
+  140  docker inspect 9c44
+  141  clear
+  142  ./restartonedrive.sh 
+  143  ./makebackup.sh 
+  144  ls /root/projects/volumes/zabbix_env/etc/ssl
+  145  sudo ls /root/projects/volumes/zabbix_env/etc/ssl
+  146  sudo ls /root/projects/volumes/zabbix_env/etc/ssl/ngix
+  147  sudo ls /root/projects/volumes/zabbix_env/etc/ssl/nginx
+  148  ls
+  149  docker ps
+  150  clear
+  151  ls -l /usr/src/app
+  152  ls -l /projetos/
+  153  sudo chmod 777 /projetos/auto-backup/
+  154  touch /projetos/auto-backup/teste
+  155  cd /projetos/auto-backup/
+  156  ls
+  157  rm teste 
+  158  cat backup_manager/tar.py 
+  159  pwd
+  160  ls
+  161  clear
+  162  docker volume inspect onedrive_conf
+  163  clear
+  164  ls
+  165  cd ..
+  166  rm -rf auto-backup/
+  167  ls
+  168  history
+  169  touch a
+  170  ls
+  171  rm -rf a
+  172  git clone https://github.com/adrien4g/auto-backup
+  173  ls
+  174  ls -l
+  175  cd backup/
+  176  ls
+  177  cd ..
+  178  rm -rf backup/
+  179  ls
+  180  cd ..
+  181  ls -l /opt
+  182  ls -l
+  183  cd /projetos/
+  184  ls
+  185  cd auto-backup/
+  186  clear
+  187  cd backup_manager
+  188  python3 -m venv .env && source .env/bin/activate
+  189  pip3 install -r requirements.txt 
+  190  deactivate && cd ..
+  191  history
+  192  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  193  clear
+  194  docker ps
+  195  docker rm onedrive --force
+  196  clear
+  197  ./startonedrive.sh 
+  198  ./restartonedrive.sh 
+  199  vim.tiny makebackup.sh 
+  200  sudo ./makebackup.sh 
+  201  touch backup/a
+  202  ls backup
+  203  rm -rf backup/*
+  204  ./startonedrive.sh 
+  205  clear
+  206  ./startonedrive.sh 
+  207  clear
+  208  docker rm onedrive --force
+  209  ./startonedrive.sh 
+  210  clear
+  211  ./startonedrive.sh 
+  212  docker rm onedrive --force
+  213  exit
+  214  cd /projetos/auto-backup/
+  215  ls
+  216  clear
+  217  docker rm onedrive --force
+  218  touch backup/a
+  219  rm -rf backup/*
+  220  ls
+  221  cat .st
+  222  cat ./startonedrive.sh 
+  223  docker exec -it onedrive bash
+  224  clear
+  225  ls backup
+  226  vim.tiny config.ini 
+  227  vim.tiny startonedrive.sh 
+  228  vim.tiny restartonedrive.sh 
+  229  touch backup/a
+  230  history
+  231  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  232  vim.tiny ./startonedrive.sh 
+  233  docker exec -it onedrive bash
+  234  clear
+  235  cat config.ini 
+  236  ls
+  237  vim.tiny startonedrive.sh 
+  238  docker volume inspect onedrive_conf
+  239  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data
+  240  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  241  ls /projetos/auto-backup/backup
+  242  rm -rf backup
+  243  clear
+  244  vim.tiny ./startonedrive.sh 
+  245  ./startonedrive.sh 
+  246  docker rm onedrive -f
+  247  clear
+  248  ./startonedrive.sh 
+  249  vim.tiny startonedrive.sh 
+  250  touch a
+  251  rm -rf a 
+  252  c
+  253  docker rm onedrive -f
+  254  exit
+  255  clear
+  256  cd /projetos/auto-backup/
+  257  ls
+  258  cat startonedrive.sh 
+  259  ls
+  260  touch backup/a
+  261  ls backup
+  262  rm -rf backup
+  263  history
+  264  docker exec -it onedrive bash
+  265  history
+  266  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  267  cat startonedrive.sh 
+  268  touch backup/a
+  269  rm -rf backup/*
+  270  history
+  271  docker exec -it onedrive bash
+  272  docker volume inspect onedrive_conf
+  273  sudo ls /var/lib/docker/volumes/onedrive_conf/_data
+  274  vim.tiny startonedrive.sh 
+  275  ls
+  276  docker rm onedrive -f
+  277  ./startonedrive.sh 
+  278  docker rm onedrive -f
+  279  rm /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+  280  sudo rm /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+  281  docker rm onedrive -f
+  282  ./startonedrive.sh 
+  283  clear
+  284  history
+  285  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config/sync_list
+  286  sudo su
+  287  exit
+  288  cd /projetos/auto-backup/
+  289  ls
+  290  touch backup/a
+  291  docker exec -it onedrive bash
+  292  ls -l
+  293  history
+  294  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  295  docker rm onedrive -f
+  296  clear
+  297  ls backup
+  298  rm -rf backup/backup/
+  299  rm -rf backup/
+  300  ls
+  301  ls -l
+  302  chown ntm:ntm backup
+  303  ls -l
+  304  rm backup
+  305  rm -rf backup
+  306  exit
+  307  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config/sync_list
+  308  docker volume inspect onedrive_conf
+  309  sudo ls /var/lib/docker/volumes/onedrive_conf/_data
+  310  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+  311  docker rm onedrive -f
+  312  clear
+  313  ./st
+  314  cd /projetos/auto-backup/
+  315  ls
+  316  ./startonedrive.sh 
+  317  exit
+  318  cd /projetos/auto-backup/
+  319  touch backup/a
+  320  exit
+  321  cd /projetos/auto-backup/
+  322  ls
+  323  ls backup
+  324  touch backup/a
+  325  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  326  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+  327  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  328  vim.tiny restartonedrive.sh 
+  329  vim.tiny startonedrive.sh 
+  330  clear
+  331  docker rm docker -f
+  332  docker rm onedrive -f
+  333  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+  334  ./startonedrive.sh 
+  335  cat startonedrive.sh 
+  336  vim.tiny 
+  337  vim.tiny startonedrive.sh 
+  338  docker rm onedrive -f
+  339  clear
+  340  ./startonedrive.sh 
+  341  ls
+  342  ls backup
+  343  rm -rf backup/*
+  344  touch backup/a
+  345  vim.tiny startonedrive.sh 
+  346  docker rm onedrive -f
+  347  ./startonedrive.sh 
+  348  touch backup/opa
+  349  exit
+  350  cd /projetos/auto-backup/
+  351  ls
+  352  rm -rf backup
+  353  ./startonedrive.sh 
+  354  clear
+  355  ./startonedrive.sh 
+  356  clear
+  357  docker rm onedrive -f
+  358  ./startonedrive.sh 
+  359  ./restartonedrive.sh 
+  360  docker ps
+  361  clear
+  362  touch backup/a
+  363  ls
+  364  touch a
+  365  rm -rf a
+  366  ls -l backup
+  367  ls -l 
+  368  sudo chown ntm backup
+  369  ls
+  370  ls -l
+  371  clear
+  372  ./startonedrive.sh 
+  373  docker rm onedrive -f
+  374  ./startonedrive.sh 
+  375  touch backup/a
+  376  ls backup
+  377  touch backup/testeee
+  378  history
+  379  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/sync_list
+  380  docker rm onedrive -f
+  381  ./startonedrive.sh 
+  382  ls backup
+  383  vim.tiny makebackup.sh 
+  384  sudo ./makebackup.sh 
+  385  cd /projetos/
+  386  ls -l
+  387  cd auto-backup/
+  388  ls
+  389  ls -l
+  390  ls -l backup
+  391  chown ntm:ntm backup/backup/
+  392  sudo chown ntm:ntm backup/backup/
+  393  rm -rf backup
+  394  ls
+  395  clear
+  396  vim.tiny startonedrive.sh 
+  397  ./startonedrive.sh 
+  398  ls backup
+  399  touch backup/opa
+  400  vim.tiny /projetos/auto-backup/config
+  401  vim.tiny /projetos/auto-backup/
+  402  vim.tiny /projetos/auto-backup/config.ini 
+  403  docker rm onedrive -f
+  404  ./s
+  405  cd /projetos/auto-backup/
+  406  ./startonedrive.sh 
+  407  ls
+  408  ls backup
+  409  touch backup/agorasiiim
+  410  cat startonedrive.sh 
+  411  history
+  412  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config/sync_list
+  413  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config/
+  414  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  415  docker rm onedrive -f
+  416  ./startonedrive.sh 
+  417  clear
+  418  history
+  419  sudo vim.tiny /var/lib/docker/volumes/onedrive_conf/_data/config
+  420  vim.tiny startonedrive.sh 
+  421  vim.tiny restartonedrive.sh 
+  422  :q
+  423  cd
+  424  cd /pro
+  425  cd /projetos/
+  426  ls
+  427  rm -rf auto-backup/
+  428  cd auto-backup/
+  429  ls
+  430  cd backup_manager/
+  431  ls
+  432  ls -l
+  433  history | grep chown
+  434  chown ntm:ntm *
+  435  sudo chown ntm:ntm *
+  436  cd ..
+  437  rm -rf auto-backup/
+  438  ls
+  439  exit
+  440  sudo crontab -e
+  441  exit
+  442  clear
+  443  ls /projetos/
+  444  docker ps
+  445  docker rm driveone -f
+  446  docker rm onedrive -f
+  447  clear
+  448  docker inspect onedrive_conf
+  449  sudo ls /var/lib/docker/volumes/onedrive_conf/_data
+  450  ls
+  451  rm -rf *
+  452  cd auto-backup/
+  453  ls
+  454  cd backup_manager/
+  455  ls
+  456  ls -l __pycache__/
+  457  sudo chown -R ntm:ntm *
+  458  ls -l __pycache__/
+  459  cd ..
+  460  ls /
+  461  cd
+  462  ls
+  463  rm -rf auto-backup/
+  464  ls
+  465  clear
+  466  cd
+  467  ls -l /projetos/
+  468  history
+  469  sudo su
+  470  clear
+  471  history
